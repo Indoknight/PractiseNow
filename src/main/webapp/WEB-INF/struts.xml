@@ -1,0 +1,7 @@
+<struts>
+    <package name="default" extends="struts-default">
+        <action name="HelloWorld" class="com.homemade.lituk.HelloWorld">
+            <result name="SUCCESS">/success.jsp</result>
+        </action>
+    </package>
+</struts>
